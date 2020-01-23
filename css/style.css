@@ -1,0 +1,148 @@
+.table-wrapper {
+	margin: 50px 100px;
+	box-shadow: 0px 1px 6px 0px #d1d1d1;
+	padding: 15px;
+	position: relative;
+}
+.toggle-icon {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e0e0e0;
+	color: #333;
+	font-size: 16px;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0px 1px 6px 0px #d1d1d1;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	transition: 0.5s ease-in;
+	background-color: #fff;
+}
+
+.table-head-rows,
+.table-body-rows {
+	display: flex;
+	justify-content: space-between;
+	border-collapse: collapse;
+	text-transform: capitalize;
+}
+.table-head-rows {
+	background-color: #fafafa;
+	padding: 15px;
+	border-bottom: 2px solid #ededed;
+	color: #333333;
+}
+
+.table-body-rows {
+	padding: 10px 10px;
+}
+.table-body-rows:nth-child(odd) {
+	background-color: #dddddd;
+}
+.table-footer-rows {
+	display: flex;
+	justify-content: flex-end;
+	color: #333333;
+	padding: 10px 0px;
+}
+.table-footer-rows > td > span {
+	color: #333333;
+	text-transform: capitalize;
+	margin: 0px 6px;
+}
+.table-footer-rows span a {
+	color: #333333;
+	text-decoration: none;
+}
+.table-footer-rows span a i {
+	margin: 0px 5px;
+}
+
+/* holding status 
+ */
+.holder-status-area {
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	padding: 15px 15px;
+	display: none;
+	transition: 0.5s ease-in;
+}
+.holder-status-headding {
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #333333;
+	margin-bottom: 15px;
+}
+.holder-status-items {
+	margin-left: 15px;
+}
+.holder-status-items ol {
+	margin: 0;
+	padding: 0;
+}
+.holder-status-items ol li {
+	color: #3f51b5;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.holder-status-items ol ul {
+	margin: 0px 0px 15px 0px;
+	padding: 0;
+	list-style: none;
+}
+.holder-status-items ol ul li {
+	text-transform: capitalize;
+	font-size: 15px;
+	padding: 3px 0px;
+	color: #333333;
+}
+
+.holder-status-items ol ul li span {
+	color: #6d6d6d;
+}
+
+/* responsiveness 
+--------------------
+*/
+@media (min-width: 575.98px) {
+	.table-head-rows,
+	.table-body-rows,
+	.table-footer-rows {
+		font-size: 10px;
+	}
+}
+@media (min-width: 768px) {
+	.table-head-rows,
+	.table-body-rows,
+	.table-footer-rows {
+		font-size: 16px;
+	}
+}
