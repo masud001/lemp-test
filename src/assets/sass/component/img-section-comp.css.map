@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,iBADa,CACb,YAAY,CAAC;EACT,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;CAKW;;AATpC,AAKQ,iBALS,CACb,YAAY,CAIR,QAAQ,CAAC;EACL,UAAU,EAAE,GAAG;CAGO;;AATlC,AAOY,iBAPK,CACb,YAAY,CAIR,QAAQ,CAEJ,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "img-section-comp.sass"
+    ],
+    "names": [],
+    "file": "img-section-comp.css"
+}

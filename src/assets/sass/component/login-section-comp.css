@@ -1,0 +1,28 @@
+#login-section-comp .login-main-content {
+  width: 100%;
+  float: left;
+}
+
+#login-section-comp .login-main-content .btn-group-div .btn-div {
+  max-width: 200px;
+  margin: -7px 0px 18px 165px;
+}
+
+#login-section-comp .login-main-content .btn-group-div .btn-div .login-btn-text {
+  margin-left: 16px !important;
+  width: 100%;
+  margin-top: -31px;
+  float: left;
+  font-size: 16px;
+}
+
+#login-section-comp .login-main-content .btn-group-div .btn-div .btn-icon {
+  font-size: 20px;
+  float: left;
+  padding-left: 20px;
+}
+
+#login-section-comp .login-main-content .btn-group-div .btn-div .btn-icon img {
+  min-height: 29px;
+}
+/*# sourceMappingURL=login-section-comp.css.map */

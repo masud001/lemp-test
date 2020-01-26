@@ -1,0 +1,586 @@
+
+//color
+
+.color-main-1
+    color: $color-main-1
+
+.color-main-2
+    color: $color-main-2
+
+.color-sub-main-1
+    color: $color-sub-main-1
+
+.color-sub-main-2
+    color: $color-sub-main-2
+
+.color-pending
+    color: $color-pending
+
+.color-decline
+    color: $color-decline
+
+.color-default
+    color: $color-default
+
+.color-default-1
+    color: $color-default-1
+
+.color-default-2
+    color: $color-default-2
+
+.color-default-3
+    color: $color-default-3
+
+.color-default-4
+    color: $color-default-4
+
+.color-default-5
+    color: $color-default-5
+
+.color-white
+    color: #ffffff !important
+
+.color-black
+    color: #020202 !important
+
+//boder
+.border-success
+    border: 2px solid #28a745
+.border-danger
+    border: 2px solid #dc3545
+
+//cust bg
+.bg-1
+    background: #6e47d4
+.bg-2
+    background: #777777
+.bg-3
+    background: #ee3a3b
+.bg-4
+    background: #4ccea2
+.bg-5
+    background: #654342
+.bg-gray
+    background: #e2e7ea
+
+// type-face
+
+h1
+    font-family: $typefaces
+    font-weight: 700
+    font-size: 28px
+
+h2
+    font-family: $typefaces
+    font-weight: 700
+    font-size: 24px
+
+h3
+    font-family: $typefaces
+    font-weight: 500
+    font-size: 20px
+
+h4
+    font-family: $typefaces
+    font-weight: 500
+    font-size: 15px
+
+.body-1
+    @include body-1()
+
+.body-2
+    @include body-2()
+
+.body-3
+    @include body-3()
+
+.caption
+    @include caption()
+
+// button
+
+.btn-l
+    @include btn-l-module()
+
+.btn-m
+    @include btn-m-module()
+
+.btn-s
+    @include btn-s-module()
+
+.btn-xs
+    @include btn-xs-module()
+
+.btn-blue
+    @include btn-l-module()
+    padding: 10px
+    font-weight: 500
+    text-align: center
+    background: $color-main-1 !important
+    color: $color-default !important
+    border: none
+
+.btn-blue:hover
+    background: $color-main-2
+
+.btn-red
+    @include btn-l-module()
+    padding: 0px 0px 5px 0px
+    font-weight: 500
+    text-align: center
+    background: $color-pending
+    color: $color-default
+    border: none
+    line-height: 35px
+
+.btn-red:hover
+    background: $color-decline
+
+.btn-grey
+    @include btn-l-module()
+    padding: 5px 0
+    font-weight: 500
+    text-align: center
+    background: $color-default-3
+    color: $color-default
+    border: none
+    line-height: 35px
+
+.btn-grey:hover
+    background: $color-default-2
+
+.btn-block
+    @include btn-l-module()
+    padding: 5px 0
+    font-weight: 500
+    text-align: center
+    background: $color-default-1
+    color: $color-default
+    line-height: 35px
+
+.btn-green
+    @include btn-l-module()
+    padding: 0px 0px 5px 0px
+    background: $color-green
+    font-weight: 500
+    text-align: center
+    color: $color-default
+    border-radius: 0
+    border: none
+    line-height: 35px
+
+.btn-green-1
+    @include btn-l-module()
+    padding: 0px 0px 5px 0px
+    background: $color-green-1
+    font-weight: 500
+    text-align: center
+    color: $color-default
+    border-radius: 0
+    border: none
+    line-height: 35px
+
+.btn-yellow
+    @include btn-l-module()
+    padding: 0px 0px 5px 0px
+    background: $color-yellow
+    font-weight: 500
+    text-align: center
+    color: $color-default-5
+    border-radius: 0
+    border: none
+    line-height: 35px
+
+.btn.focus
+    .btn:focus
+        outline: 0
+        box-shadow: 0 0 0 0 transparent
+.dropdown-toggle:focus
+    outline: 0
+    box-shadow: 0 0 0 0 transparent
+
+.content-section
+    width: 100%
+    float: left
+
+.content-left-box
+    width: 100%
+    float: left
+
+.content-right-box
+    width: 100%
+    float: left
+
+.border-botton
+    border-bottom: 1px solid $color-default-2
+
+//padding
+.pad-l-r-0
+    padding-left: 0 !important
+    padding-right: 0 !important
+.pad-l-r-5
+    padding-left: 5px !important
+    padding-right: 5px !important
+.pad-l-5
+    padding-left: 5px !important
+.pad-r-5
+    padding-right: 5px !important
+.pad-0
+    padding: 0 !important
+.pad-l-0
+    padding-left: 0 !important
+.pad-r-0
+    padding-right: 0 !important
+.pad-l-66
+    padding-left: 66px
+.pad-l-131
+    padding-left: 131px
+.pad-l-190
+    padding-left: 190px
+    width: 30% !important
+.pad-r-20
+    padding-right: 20px
+//margin
+.mar-set
+    margin: -9px 50px 0px -11px
+.mar-0
+    margin: 0 !important
+.mar-l-r-0
+    margin-left: 0 !important
+    margin-right: 0 !important
+.mar-t-b-15
+    margin-top: 15px !important
+    margin-bottom: 15px !important
+.mar-t-15
+    margin-top: 15px !important
+.mar-t-5
+    margin-top: 5px !important
+.mar-r-0
+    margin-right: 0 !important
+.mar-r-20
+    margin-right: 20 !important
+.mar-l-40
+    margin-left: 40px
+.mar-l-15
+    margin-left: 15px
+.mar-l-20
+    margin-left: 20px
+.mar-l-13
+    margin-left: 13px
+.mar-b-22
+    margin-bottom: 22px
+.mar-b-17
+    margin-bottom: 17px
+.mb-38
+    margin-bottom: 38px
+.mt-90px
+    margin-top: 90px
+.mb-60px
+    margin-bottom: 60px
+
+//width
+.fullWidth
+    width: 100% !important
+
+// position
+.position-reletive
+    position: relative !important
+
+// display
+.dis-block
+    display: block
+.dis-none
+    display: none
+
+// font-wight
+.font-bold
+    font-weight: bolder
+
+// badge-btn
+.table-badge-btn-green
+    background: #9dd20c !important
+    padding: 3px 7px !important
+    color: #fff !important
+.table-badge-btn-pink
+    background: #d82755 !important
+    padding: 3px 7px !important
+    color: #fff !important
+
+//file-upload
+
+// .imgUp
+//     margin-bottom: 15px
+//     width: 100%
+//     border: 1px solid
+//     .imagePreview
+//         width: 100%
+//         height: 180px
+//         background-position: center center
+//         background: url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg)
+//         background-color: #fff
+//         background-size: cover
+//         background-repeat:no-repeat
+//         display: inline-block
+//         min-height: 180px
+//         .cust-file-upload-btn
+//             visibility: hidden !important
+//             .cust-file-upload-input
+//                 // visibility: hidden !important
+
+// .del
+//   position: absolute
+//   top: 0px
+//   right: 15px
+//   width: 30px
+//   height: 30px
+//   text-align: center
+//   line-height: 30px
+//   background-color: rgba(255,255,255,0.6)
+//   cursor: pointer
+
+// .imgAdd
+//   width: 30px
+//   height: 30px
+//   border-radius: 50%
+//   background-color: #4bd7ef
+//   color: #fff
+//   text-align: center
+//   line-height: 30px
+//   margin-top: 0px
+//   cursor: pointer
+//   font-size: 15px
+
+//time-picker
+
+.gj-timepicker
+    .gj-textbox-md
+        border-bottom: 0px !important
+        .datetimepicker-input
+            width: calc(100% - 100px) !important
+            border: 1px solid #6e47d4 !important
+            font-family: Helvetica,Arial,sans-serif
+            font-size: 14px
+            line-height: 14px
+            padding: 1px 0
+
+    .gj-icon
+        z-index: 9 !important
+        top: 5px !important
+        right: 1px !important
+        border-left: 1px solid !important
+        padding: 5px !important
+        color: #6e47d4
+//dropdown
+// .dropdown.show
+//     .fa-angle-down
+//         transform: rotate(180deg)
+.dropdown
+    .fa-angle-down
+        transform: rotate(0deg)
+    .dropdown-toggle
+        background: #ffffff
+        border-radius: 0
+        border: 1px solid white
+        text-align: left
+        float: left
+        min-width: 181px
+        color: #828891
+        margin-top: 4px
+        padding: 6px 14px 8px 10px
+        .fa-angle-down
+            float: right
+            top: 3px
+            margin-top: 3px
+            font-size: 15px
+    // .dropdown-toggle.active
+    //     .fa-angle-down
+    //         transform: rotate(180deg)
+    .dropdown-toggle::after
+        float: right
+        display: none
+    .dropdown-toggle:hover, .dropdown-toggle:focus
+        background: $color-default !important
+        border-radius: 0
+        border: 1px solid $color-default-5 !important
+        text-align: left
+        float: left
+        color: $color-default-5 !important
+        box-shadow: 0px 0px 0px 0px !important
+        min-width: 0
+    .dropdown-menu.show
+        border-radius: 0
+        width: 100%
+        padding: 0
+        min-width: 0
+        visibility: visible
+        .dropdown-item
+            @include body-2()
+            font-size: 13px
+            border-bottom: 1px solid $color-default-5
+            color: $color-default-5
+        .dropdown-item.active, .dropdown-item:active, .dropdown-item:hover
+            color: #fff
+            text-decoration: none
+            background-color: #fff
+            border: 1px solid $color-main-1 !important
+            color: $color-main-1 !important
+
+select
+    @include body-2()
+    min-width: 200px
+    padding: 12px 10px 20px
+    text-align: left
+    border-radius: 0 !important
+    border-color: $color-default-3
+    color: $color-default-3 !important
+    font-size: 14px
+    option
+        a
+            padding: 15px 0 !important
+    option:checked
+        color: red
+        background: #ffffff
+
+input
+    @include body-2()
+    min-width: 120px !important
+    width: 100% !important
+    padding: 10px 4px !important
+    text-align: left !important
+    border: 0 !important
+    border-bottom: 1px solid $color-default-3 !important
+    border-radius: 0 !important
+
+input:active, input:focus
+    @include body-1()
+    border-bottom: 1px solid $color-main-1 !important
+    box-shadow: 0 0 0 0 !important
+
+//checkbox
+.custom-checkbox
+    .custom-control-label
+        .custom-checkbox-text
+            @include body-3()
+            margin-left: 35px
+            font-size: 14px
+    .custom-control-label::before, .custom-control-label::after
+        top: .8rem
+        width: 1.25rem
+        height: 1.25rem
+        border-radius: 0
+        left: unset !important
+        top: 4px
+        border-radius: 0 !important
+        font-size: 13px
+
+    .custom-control-label:hover:before
+        border-radius: .25rem
+        border: 1px solid black
+        background: white
+    .custom-control-input:checked~.custom-control-label::before
+        background-color: $color-main-1 !important
+        border-color: $color-main-1  !important
+    .custom-control-input:checked~.custom-control-label::focus
+        background-color: $color-main-1 !important
+        border-color: unset  !important
+
+//credit-section
+button:focus
+    outline: none !important
+.border-radius
+    border-radius: 10px
+
+// all page-title-logo
+
+.page-title-logo
+    width: 100%
+    text-align: center
+    margin-top: 24px
+    margin-left: -12px
+    position: relative
+    .fire-text
+        font-size: 25px
+        position: absolute
+        width: 100%
+        top: 65px
+        .fire-text-1
+            font-size: 20px
+            padding-right: 5px
+        .fire-text-2
+            padding-right: 5px
+            font-size: 2rem
+            margin-top: 10px
+            display: inline-block
+            font-weight: 800
+            font-family: $typefaces !important
+        .fire-text-3
+            color: $color-main-1
+            font-size: 1.5rem
+    .animation-div
+        position: absolute
+        width: 28%
+        right: 22%
+        top: 138px
+        .animation-middle
+            margin: auto
+
+/* banner images parallax  */
+.google-map-style
+    overflow: hidden
+    position: relative
+
+    .slider-img
+        animation: scale-animation 20s infinite
+        transition: opacity 2s linear,transform 7.5s linear,-webkit-transform 7.5s linear
+        object-fit: cover
+        height: 100%
+
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        z-index: 0
+        opacity: 0.2
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.3) 20%,rgba(0,0,0,0.3) 75%,rgba(0,0,0,1) 95%), url('../img/dots-bg.png')
+        background-size: auto auto, 4px 4px
+
+    .slider-text
+        z-index: 1
+        top: 40%
+    .map-search-box
+        z-index: 1
+
+        .input-plus-minus
+            .fa-plus, .fa-minus
+                font-size: 20px
+                line-height: 47px
+
+@keyframes scale-animation
+    form
+        transform: scale(1)
+    to
+        transform: scale(1.5)
+
+/*   */
+.content-section
+    .content-left-data
+        .main-div
+            a
+                display: block
+                padding: 4px 0
+                .content-left-part, .content-right-part
+                    color: #6e47d4
+                .content-left-number
+                    color: #30353D
+                    padding-left: 5px
+                    font-size: 20px
+                    font-weight: bold
+                    padding-right: 6px
+                    vertical-align: bottom
+                &:hover
+                    .content-left-part, .content-right-part
+                        color: #30353D
+                        text-decoration: underline

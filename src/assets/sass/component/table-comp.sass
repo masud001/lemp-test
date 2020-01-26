@@ -1,0 +1,58 @@
+#table-comp
+    .table-panel
+        .container-table
+            width: 1118px
+            margin-left: 16px
+        table 
+            width: 100%
+            border-collapse: collapse 
+            margin: 15px auto
+        th 
+            @include body-2()
+            font-weight: 900 !important 
+            padding: 10px
+            border-top: 1px solid $color-main-1 
+            border-bottom: 1px solid $color-main-1 
+            text-align: left 
+            font-size: 18px
+            color: $color-main-1
+            padding: 15px 28px
+        td  
+            @include body-2()
+            padding: 24px 29px
+            font-weight: 900 !important 
+            border-bottom: 1px solid $color-default-3
+            text-align: left 
+            font-size: 18px
+        .header
+            .fa-angle-down
+                display: block
+            .fa-angle-up
+                display: none
+        .header.active
+            .fa-angle-down
+                display: none
+            .fa-angle-up
+               display: block
+        .table-td-collapse
+            .arrow-icon
+                float: right
+                font-size: 20px
+        .collapse-main-row
+            display: none
+            .collapse-main-col
+                padding: 0
+                .collapse-table
+                    margin: 0
+                    .collapse-main-header
+                        background: $color-default-2
+                        td
+                            padding: 8px 29px
+                    .collapse-main-body
+                        border: 0
+                        background: $color-default-1
+                        .collapse-body
+                            border-bottom: 0
+            
+                
+

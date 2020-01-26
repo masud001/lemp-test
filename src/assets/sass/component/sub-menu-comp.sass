@@ -1,0 +1,102 @@
+#sub-menu-comp
+  #dock-container
+    display: flex
+    #dock
+      margin: auto
+      .submenu-list
+        .submenu-main-title
+          font-size: 14px
+          text-align: center
+          color: #333333
+      ul
+        list-style: none
+        display: inline-flex
+        // padding: 20px 0 10px 0
+        margin: auto
+        li
+          list-style-type: none
+          display: inline-block
+          position: relative
+          span.submenu-title
+            display: none
+            position: absolute
+            bottom: 90px
+            left: -12px
+            //for old icon
+            // bottom: 65px
+            // left: -35px
+            width: 125px
+            background-color: rgba(0, 0, 0, 0.75)
+            padding: 7px 0
+            border-radius: 6px
+            text-align: center
+            z-index: 9
+
+            &:after
+              content: ""
+              width: 0
+              height: 0
+              border-left: 7px solid transparent
+              border-right: 7px solid transparent
+              border-top: 10px solid rgba(0, 0, 0, 0.75)
+              position: absolute
+              left: 45%
+              bottom: -10px
+              // width: 60px
+              // max-width: 60px
+            // -webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(rgba(255, 255, 255, .5)))
+              -webkit-transition: all 0.3s
+              -webkit-transform-origin: 50% 100%
+          .sub-menu-icon
+            width: 60px
+            max-width: 60px
+            // -webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(rgba(255, 255, 255, .5)))
+            -webkit-transition: all 0.3s
+            -webkit-transform-origin: 50% 100%
+            font-size: 30px
+            text-align: center
+        li:last-child
+          .nav-img-icon
+            border-right: 0
+        li:hover img
+          -webkit-transform: scale(2)
+          margin: 0 2em
+        li:hover .sub-menu-icon
+          -webkit-transform: scale(2)
+          width: 60px
+          max-width: 60px
+        li:hover + li img, li.prev img
+          -webkit-transform: scale(1.5)
+          margin: 0 1.5em
+        li:hover + li .sub-menu-icon, li.prev .sub-menu-icon
+          -webkit-transform: scale(1.5)
+          margin: 0 1em
+        li:hover span.submenu-title
+          display: block
+          color: #fff
+
+  //
+  //.submenu
+  //  float: left
+  //  width: 100%
+  //  .nav-submenu
+  //    margin: auto
+  //    padding: 0px 0px
+  //    width: 100%
+  //    display: inline-flex
+  //    .menu-center
+  //      display: inline-flex
+  //      margin: auto
+  //      .submenu-list
+  //        li
+  //          .nav-cust
+  //            .fa
+  //              font-size: 27px
+  //              color: $color-default-2
+  //        li:first-child
+  //
+  //        li:hover
+  //          .fa
+  //            color: $color-main-2 !important
+  //        .icon-active
+  //          color: $color-main-1 !important

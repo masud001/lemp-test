@@ -1,0 +1,251 @@
+#header
+  .without-testimonial.header-container
+    margin-bottom: 130px
+    .header-slider-panel
+      display: none
+      -webkit-transition: margin-top 0.1s /* Safari prior 6.1 */
+      transition: margin-top 0.1s
+    .header-menu-panel
+      position: fixed
+      top: 0
+      width: 100%
+      z-index: 9
+      -webkit-transition: margin-top 0.1s /* Safari prior 6.1 */
+      transition: margin-top 0.1s
+      background: $color-main-1
+      opacity: 0.92
+      .img-div-logo
+        width: 140px
+        cursor: pointer
+        height: 70px
+        display: flex
+        .logo-white
+          display: block
+          margin: auto
+          filter: brightness(0) invert(1)
+        .logo-blue
+          display: none
+          margin: auto
+      .custom-main-div-dropdown-menu-apps
+        margin-right: 8rem
+        padding-top: 1rem
+        cursor: pointer
+        background: transparent
+        border: transparent
+        color: white !important
+      .nav-link
+        color: white !important
+      .nav-link:hover
+        color: white !important
+      .nav-link::after
+        content: "" /* This is necessary for the pseudo element to work. */
+        display: block /* This will put the pseudo element on its own line. */
+        margin: 0 auto /* This will center the border. */
+        width: 0 /* Change this to whatever width you want. */
+        border-bottom: 1px solid white !important /* This creates the border. Replace black with whatever color you want. */
+        transition: width 0.3s
+      .nav-link:hover:after
+        width: 100% /* Change this to whatever width you want. */
+      .navbar-toggler
+        background: #ffffff
+      .mini-menu
+        background: $color-main-1 !important
+        z-index: 9
+      .welcome-text, .massage-icon
+        color: white
+      #humburg-menu-comp
+        position: relative
+        .menu-trigger
+          span
+            background: #ffffff
+  //   .header-menu-panel
+  //       background: $color-main-1 !important
+  //       .nav-link
+  //         color: white !important
+  //       .welcome-text
+  //         color: white !important
+  //       .logo-white
+  //         display: block !important
+  //       .logo-blue
+  //         display: none !important
+  // .without-testimonial.sticking.header-container
+  //   .header-menu-panel
+  //     background: $color-default !important
+  //     .mini-menu
+  //       background: $color-default !important
+  //       z-index: 9
+  //     .welcome-text
+  //       color: $color-main-1 !important
+  //     .nav-link
+  //       color: $color-main-1 !important
+  //     .logo-blue
+  //         display: block !important
+  //     .logo-white
+  //         display: none !important
+
+  .header-container
+    .header-slider-panel
+      background: #f77544
+      color: #ffffff
+      margin: auto
+      .carousel
+        padding: 0 !important
+    .header-menu-panel
+      display: flex
+      background: white
+      padding: 0px 0px 2px 0px
+      height: 70px
+      #humburg-menu-comp
+        position: relative
+        .humburg-menu-div
+          position: absolute
+          right: 15px
+          /* bottom: 0; */
+          height: 0px
+          width: 225px
+          z-index: 1
+          background: #fff
+          visibility: hidden
+          top: 70px
+          .menu-main-data-div
+            padding: 15px 15px 15px
+        .humburg-menu-div.active-humburg
+          height: 350px
+          transition: height 0.5s
+          visibility: initial
+      .custom-main-div-dropdown-menu-apps
+        margin-right: 8rem
+        padding-top: 1rem
+        cursor: pointer
+        background: transparent
+        border: transparent
+        color: $color-main-1
+      .nav-link
+        // color: $color-main-1 !important
+        color: black
+        display: inline-block
+      .nav-link:hover
+        color: $color-main-1 !important
+      .nav-link::after
+        content: "" /* This is necessary for the pseudo element to work. */
+        display: block /* This will put the pseudo element on its own line. */
+        margin: 0 auto /* This will center the border. */
+        width: 0 /* Change this to whatever width you want. */
+        // padding-top: 10px /* This creates some space between the element and the border. */
+        border-bottom: 1px solid $color-main-1 !important /* This creates the border. Replace black with whatever color you want. */
+        transition: width 0.3s
+      .nav-link:hover:after
+        width: 100% /* Change this to whatever width you want. */
+      .img-div-logo
+        width: 140px
+        cursor: pointer
+        height: 70px
+        display: flex
+        .logo-white
+          display: none
+          margin: auto
+          filter: brightness(0) invert(1)
+        .logo-blue
+          display: block
+          margin: auto
+      .main-menu-section
+        margin: auto
+        display: inline-flex
+        padding: 15px
+        .logo-content
+          display: inline-flex
+          margin: 0 50px
+          .img-logo
+            width: 170px
+            height: 55px
+        .menu-content
+          display: inline-flex
+          margin: auto
+          .list-item
+            padding: 15px
+          .list-icon
+            background: #e8e8e8
+            border-radius: 50%
+            font-size: 25px
+            padding: 5px 16px
+            .custom-icon
+              color: #fff
+
+  .user-main-info-div
+    display: flex
+    float: right
+    padding: 15px 0
+    position: absolute
+    right: -75px
+    .user-main-info-drop-div-btn
+      padding: 0 !important
+      .user-img-logo
+      .welcome-text
+        @include body-1()
+        padding: 10px
+        font-weight: bolder !important
+    .massage-icon
+      padding: 10px 0
+
+  .header-container.sticking
+    .header-slider-panel
+      display: none
+      -webkit-transition: margin-top 0.1s /* Safari prior 6.1 */
+      transition: margin-top 0.1s
+    .header-menu-panel
+      position: fixed
+      top: 0
+      width: 100%
+      z-index: 9
+      -webkit-transition: margin-top 0.1s /* Safari prior 6.1 */
+      transition: margin-top 0.1s
+      background: $color-main-1
+      opacity: 0.92
+      // #humburg-menu-comp
+      //   position: relative
+      //   .menu-trigger
+      //     span
+      //       background: #ffffff
+      .img-div-logo
+        width: 140px
+        cursor: pointer
+        height: 70px
+        display: flex
+        .logo-white
+          display: block
+          margin: auto
+          filter: brightness(0) invert(1)
+        .logo-blue
+          display: none
+          margin: auto
+      .custom-main-div-dropdown-menu-apps
+        margin-right: 8rem
+        padding-top: 1rem
+        cursor: pointer
+        background: transparent
+        border: transparent
+        color: white !important
+      .nav-link
+        color: white !important
+        display: inline-block
+      // .nav-link:hover
+      //   border-bottom: 1px solid white
+      .nav-link::after
+        content: "" /* This is necessary for the pseudo element to work. */
+        display: block /* This will put the pseudo element on its own line. */
+        margin: 0 auto /* This will center the border. */
+        width: 0 /* Change this to whatever width you want. */
+        // padding-top: 10px /* This creates some space between the element and the border. */
+        border-bottom: 1px solid #ffffff !important /* This creates the border. Replace black with whatever color you want. */
+        transition: width 0.3s
+        -webkit-transition: width 0.3s/* Safari 3.1 to 6.0 */
+      .nav-link:hover::after
+        width: 100%
+      .navbar-toggler
+        background: #ffffff
+      .mini-menu
+        background: $color-main-1 !important
+        z-index: 9
+
+      .welcome-text, .massage-icon
+        color: white

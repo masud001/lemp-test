@@ -1,0 +1,72 @@
+#sub-menu-comp #dock-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sub-menu-comp #dock-container #dock {
+  margin: auto;
+}
+
+#sub-menu-comp #dock-container #dock ul {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px 0 10px 0;
+  margin: auto;
+}
+
+#sub-menu-comp #dock-container #dock ul li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+}
+
+#sub-menu-comp #dock-container #dock ul li span {
+  display: none;
+  position: absolute;
+  bottom: 75px;
+  width: 125px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 7px 0;
+  border-radius: 6px;
+  text-align: center;
+  z-index: 9;
+}
+
+#sub-menu-comp #dock-container #dock ul li span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 45%;
+  bottom: -10px;
+}
+
+#sub-menu-comp #dock-container #dock ul li img {
+  width: 60px;
+  max-width: 60px;
+  -webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.7, transparent), to(rgba(255, 255, 255, 0.5)));
+  -webkit-transition: all 0.3s;
+  -webkit-transform-origin: 50% 100%;
+}
+
+#sub-menu-comp #dock-container #dock ul li:hover img {
+  -webkit-transform: scale(2);
+  margin: 0 2em;
+}
+
+#sub-menu-comp #dock-container #dock ul li:hover + li img, #sub-menu-comp #dock-container #dock ul li.prev img {
+  -webkit-transform: scale(1.5);
+  margin: 0 1.5em;
+}
+
+#sub-menu-comp #dock-container #dock ul li:hover span {
+  display: block;
+  color: #fff;
+}
+/*# sourceMappingURL=sub-menu-comp.css.map */

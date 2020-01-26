@@ -1,0 +1,15 @@
+#img-section-comp .img-section {
+  float: left;
+  width: 100%;
+  margin-top: -13px;
+}
+
+#img-section-comp .img-section .img-div {
+  margin-top: 5px;
+}
+
+#img-section-comp .img-section .img-div img {
+  width: 100%;
+  height: 100px;
+}
+/*# sourceMappingURL=img-section-comp.css.map */

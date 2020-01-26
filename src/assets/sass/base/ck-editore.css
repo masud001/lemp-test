@@ -1,0 +1,26 @@
+#cke_editor1 .cke_inner .cke_button {
+  height: 20px !important;
+  width: 25px !important;
+}
+
+#cke_editor1 .cke_inner .cke_button .cke_button_icon {
+  height: 20px !important;
+  width: 25px !important;
+}
+
+#cke_editor1 .cke_inner .cke_button__bold .cke_button__bold_icon {
+  background: url(./../img/icon/editor-icon-2.png) no-repeat 0 !important;
+}
+
+#cke_editor1 .cke_inner .cke_button__italic .cke_button__italic_icon {
+  background: url(./../img/icon/editor-icon-3.png) no-repeat 0 !important;
+}
+
+#cke_editor1 .cke_inner .cke_button__bulletedlist .cke_button__bulletedlist_icon {
+  background: url(./../img/icon/editor-icon-5.png) no-repeat 0 !important;
+}
+
+#cke_editor1 .cke_inner .cke_button__link .cke_button__link_icon {
+  background: url(./../img/icon/editor-icon-4.png) no-repeat 0 !important;
+}
+/*# sourceMappingURL=ck-editore.css.map */

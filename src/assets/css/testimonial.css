@@ -1,0 +1,88 @@
+.card {
+  margin: 0 auto;
+}
+.card .carousel-item {
+  height: 86px;
+}
+.card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+  width: 51%;
+  margin: 0 auto;
+  top: 2px;
+}
+.card .carousel-caption h3 {
+  color: #f77542;
+  font-size: 18px;
+  margin-bottom: 0;
+  background: white;
+  padding: 0px 10px;
+}
+
+.card .carousel-caption small
+{
+  color: white;
+  font-size: 15px;
+}
+.card .carousel-caption p {
+  line-height: 30px;
+}
+.card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.card .carousel-control-prev, .card .carousel-control-next {
+  color: #3d3d3d !important;
+  opacity: 1 !important;
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.carousel-caption small b
+{
+  font-size: 20px;
+}
+.img-food
+{
+  width: 116px;
+  float: left;
+}
+.carousel-control-prev-icon {
+  background:url("./../img//prieview-icon.png");
+  background-repeat: no-repeat
+}
+.carousel-control-next-icon {
+  background:url("./../img//next-icon.png");
+  background-repeat: no-repeat;
+}
+.testimonial-text
+{
+  float: right;
+  margin-left: 20px;
+  margin-top: 6px;
+  position: absolute;
+  right: 0;
+}
+.carousel-set
+{
+  margin-top:9px;
+  width:350px;
+}

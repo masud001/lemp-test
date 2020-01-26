@@ -1,0 +1,71 @@
+//material ui
+.mat-input-icon-div
+    float: left
+    width: 100px
+    width: 4em
+    height: 62px
+    display: flex
+    .mat-input-icon
+        font-size: 35px
+        margin: 22px auto auto 11px
+        border-radius: 0px
+        color: #512db1
+    .mat-input-icon-img
+        margin: auto 0 0
+        height: 45px
+    .MuiSvgIcon-root, .material-icons
+        margin: auto 0 0
+.MuiFormLabel-root
+    font-size: 14px !important
+    font-family: Nanosans !important
+
+.mat-input-textfield-div
+    float: left
+    width: calc( 100% - 4em )
+    textarea:focus
+        border: unset !important
+    .MuiInputAdornment-positionEnd
+        .mat-input-aftert-btn
+            min-width: 100px
+            margin-bottom: 15px
+
+.MuiFilledInput-input
+    padding: 27px 12px 10px !important
+
+.MuiInput-underline:before
+    border-bottom: 1px solid rgb(75, 79, 84) !important
+.MuiInput-underline:hover:not(.Mui-disabled):before
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important
+
+.page-filter-box-main-div
+    display: flex
+    margin-bottom: 45px
+    .page-filter-box-sub-div
+        margin: auto
+        width: 450px
+        max-width: 100%
+        .page-filter-dropdown
+            width: 110px
+            float: left
+            .MuiInput-underline:before
+                border-bottom: 1px solid#7a56d7 !important
+            .MuiInput-underline
+                background: #7a56d7
+                color: #fff
+                height: 45px
+                text-align: center
+                font-weight: 500
+                .MuiSelect-icon
+                    top: calc(50% - 12px)
+                    color: rgb(255, 255, 255)
+                    right: 0
+                    position: absolute
+                    pointer-events: none
+            .MuiInput-underline:before
+                border-bottom: 1px solid rgb(122, 86, 215)
+            .MuiInput-underline:hover:not(.Mui-disabled):before
+                border-bottom: 1px solid rgb(122, 86, 215) !important
+        .page-filter-input
+            width: calc( 100% - 110px )
+            float: left
+            margin-top: 7px

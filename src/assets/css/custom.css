@@ -1,0 +1,318 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+.sticking  .user-main-info-div {
+  color: #fff !important;
+}
+.mar-r-27
+{
+    margin-right: 27px !important;
+}
+
+/*  */
+.navbar-light .navbar-nav .active>.nav-link:hover {
+  color: #6e47d4 !important;
+}
+
+.headerWhiteLogin {
+  color:white;
+}
+
+.headerWhiteLogin>span:hover {
+  color: #ffa477;
+}
+
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #sync1 .item {
+    background: #0c83e7;
+    padding: 80px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+  }
+  #sync2 .item {
+    background: #C9C9C9;
+    padding: 10px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #sync2 .item h1 {
+    font-size: 18px;
+  }
+  #sync2 .current .item {
+    background: #0c83e7;
+  }
+  .owl-theme .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+  }
+  .owl-theme .owl-nav [class*='owl-'] {
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+  }
+  #sync1.owl-theme {
+    position: relative;
+  }
+  #sync1.owl-theme .owl-next,
+  #sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+  }
+  #sync1.owl-theme .owl-prev {
+    left: 10px;
+  }
+  #sync1.owl-theme .owl-next {
+    right: 10px;
+  }
+  .slider-item {
+  
+  }
+  /* Slider arrows */
+  .slick-arrow {
+    z-index: 9;
+    display: none !important; 
+
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .slick-dots
+  {
+      display: none !important;
+  }
+
+  /* ___________________________________________________________________________________
+
+   this Css used for design dropdown same as material dropdown using Pure css 
+   
+_________________________________Start_________________________________________________ */
+
+.select-purple{
+  border-radius : unset !important;
+  background: #6E47D4 !important;
+    color: #fff !important;
+    padding-right: 37px;
+}
+
+.select-purple-align {
+  padding-top: 7px !important;
+  float: right !important;
+  }
+
+.select-align-right {
+float: right !important;
+}
+.select-trans-btn{
+  background: transparent !important;
+  border-bottom: 1px solid lightgrey !important;
+}
+.select-trans-btn > i {
+  top:14px !important;
+}
+.dropdown  > .select-trans-btn:focus {
+  box-shadow: unset !important;
+}
+.dropdown  > .select-trans-btn {
+  border-radius: 0px !important;
+}
+
+.custom-main-div-dropdown-menu-design {
+  position: absolute !important;
+  transform: unset !important;
+  top: unset !important;
+  left: unset !important;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px #605f5f;
+  border-radius: 5px !important;
+  padding: 10px 0 !important;
+  z-index: 2;
+}
+.custom-main-div-dropdown-menu-design .custom-item-div-dropdown-menu-design {
+  padding: 10px 15px;
+  font-family: NanumSquareRound;
+  font-weight: 500;
+  font-size: 15px;
+  color: black !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+
+}
+
+
+.custom-main-div-dropdown-menu-design .custom-item-div-dropdown-menu-design:hover {
+  background: #ebebeb;
+}
+/* _________________________________End__________________________________________________ */
+ 
+
+.cafehome-icon 
+{
+  width: 5rem !important;
+  height: 5rem !important;
+  margin-left: auto;
+  margin-right: auto;
+  display: block !important;
+  color: brown;
+}
+
+.float-center {
+  margin-left: auto !important;
+    margin-right: auto !important; 
+    display: block !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.gj-timepicker .gj-textbox-md {
+  border: 1px solid #6e47d4 !important;
+}
+.regularday-row {
+min-width: 500px !important;
+}
+
+
+
+/*
+Chatting Room Start
+*/
+
+.chattingCotainer {
+  padding: 20px; 
+  min-height: 100vh;
+  border-radius: 0%;
+  border: 1px solid #eee !important;
+}
+
+.chattingBar {
+  bottom:25px;
+  position:fixed;
+  border: 1px solid rgb(197, 197, 197) !important; 
+  margin-left:1%;
+}
+
+
+.chattingBottomBar {
+  border-bottom: unset !important;
+  min-width:1050px !important;  
+  background: #eee;
+}
+.chattingBottomBar:focus {
+  border-bottom: unset !important;
+}
+
+/*
+Chatting Room Finish
+*/
+
+/*==================================================================================
+    Custom Badge
+====================================================================================*/
+.tt-badge{
+	font-size: 14px;
+    padding: 1px 7px 2px;
+    color: #ffffff;
+    line-height: 1;
+    font-weight: 500;
+    height: 15px;
+    border: none;
+    outline: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: "3px";
+    color: #ffffff;
+}
+
+.tt-list-badge{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+	list-style: none;
+	padding: 3;
+	margin: 5px 0 0 -40px;
+}
+  .tt-list-badge > li{
+		margin-left: 8px;
+    margin-top: 8px;
+	}
+  .tt-size-lg {
+        margin: -15px 0 0 -15px;
+  }
+  .tt-size-lg > li{
+            margin: 15px 0 0 15px;
+        }
+        .tt-badge{
+            height: 26px;
+            font-size: 12px;
+            padding: 1px 10px 2px;
+            letter-spacing: 0.01em;
+            margin-right:1px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap;
+            border-radius: 3px;
+        }
+    
+
+        .warning-modal  .MuiDialog-paper {
+            position: unset !important;
+        }
+
+        
+/* table image*/
+.tableViewImg{
+  width: 150px;
+  height: 30px;
+}
+
+        /* Chatting Page Start*/
+.chattingMsgBox{
+    bottom: 100px;
+    position: absolute;
+    max-height: 74vh;
+    overflow: scroll;
+    max-width: 201vh;
+}
+
+        /* Chatting Page End*/
+.txt:hover {
+          text-decoration: underline;
+          color:#6E47D4 !important;
+      }
+
+.txtGrey:hover {
+        text-decoration: underline;
+        color:rgba(12, 12, 12, 0.333) !important;
+    }      

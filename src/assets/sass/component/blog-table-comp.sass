@@ -1,0 +1,424 @@
+#blog-table-comp
+    position: relative
+    background: transparent
+    .select-trans-btn
+        border-bottom: 0 solid lightgrey !important
+    .main-table
+        .collesps-main-row
+            @include body-1()
+            .collesps-main-column
+                padding: 0 !important
+                .table-heading-colapse
+                    text-align: left
+                    font-size: 14px
+                    margin: 20px 0px 0px 20px
+                .colleps-data-div
+                    width: 900px
+                    margin: auto
+                    .table-title-colapse
+                        font-size: 18px
+                        font-weight: 900
+                        margin: 30px 0px 15px 0px
+                        text-align: center
+                    .table-title-colapse-2
+                        font-size: 18px
+                        font-weight: 900
+                        margin: 30px 0px 15px 0px
+                        text-align: center
+                        opacity: 0
+                    .step1-blue-dotted-border
+                        border: 4px solid #7d479c
+                        border-style: dashed
+                        padding: 15px
+                        border-radius: 5px
+                        position: relative
+                        margin-bottom: 20px
+                        .step1-box
+                            color: white
+                            background: #7d479c
+                            float: left
+                            font-size: 20px
+                            border-radius: 5px
+                            height: 60px
+                            position: absolute
+                            left: -8px
+                            top: -17px
+                            width: 58px
+                            word-break: keep-all
+                            padding: 2px
+                        .step1-text
+                            width: 100%
+                            text-align: left
+                            padding-left: 50px
+                            font-weight: 900
+
+                .colapse-main-panel
+                    border-radius: 4px
+                    border: 1px solid gray
+                    width: 100%
+                    float: left
+                    position: relative
+                    .colapse-main-left-panel
+                        background: gray
+                        width: 6%
+                        display: flex
+                        float: left
+                        height: 100%
+                        max-height: 100%
+                        margin: auto
+                        position: absolute
+                        .left-text
+                            font-weight: bold
+                            font-size: 16px
+                            margin: auto
+                            color: $color-default
+                            word-break: keep-all
+                    .colapse-main-right-panel
+                        float: right
+                        width: 90%
+                        background: #eaeaea
+                        margin: 15px 18px 10px 10px
+                        padding: 10px
+                        border-radius: 5px
+                        .colapse-main-right-panel-section
+                            .right-panel-text-1
+                                font-weight: 900
+                                margin-bottom: 10px
+                            .right-panel-text-2
+                                font-weight: 900
+                                margin-bottom: 20px
+                                .arrow
+                                    vertical-align: text-bottom
+                                    img
+                                        width: 80px
+                                        margin: 0px 6px
+                            .right-panel-section-bottom
+                                width: 100%
+                                float: left
+                                padding: 0px 60px 0px 60px
+                                .section-bottom-left
+                                    float: left
+                                    width: 110px
+                                    display: grid
+                                    .span-orange-text
+                                        color: #f26922
+                                        font-weight: 900
+                                        float: left
+                                        width: 100%
+                                        font-size: 16px
+                                    .orange-box
+                                        border: 5px solid #f26922
+                                        height: 150px
+                                        width: 100px
+                                        float: left
+                                        border-radius: 10px
+                                        margin: auto
+                                        display: grid
+                                        background: $color-default
+                                        text-align: center
+                                        .orange-box-text-1
+                                            word-break: break-all
+                                            width: 50px
+                                            margin: auto
+                                            font-size: 17px
+                                        .orange-box-text-2
+                                            word-break: break-all
+                                            width: 50px
+                                            margin: auto
+                                            font-size: 17px
+                                .section-middle-left
+                                    float: left
+                                    width: 135px
+                                    display: grid
+                                    margin-top: 50px
+                                    .tx-box
+                                        .tx-text
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                        .tx-red-arrow-img
+                                            float: left
+                                        .tx-text-2
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                    .rx-box
+                                        .rx-text
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                        .rx-red-arrow-img
+                                            float: left
+                                        .rx-text-2
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                    .rnd-box
+                                        .rnd-text
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                        .rnd-red-arrow-img
+                                            float: left
+                                        .rnd-text-2
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                    .plus-box
+                                        margin-top: 20px
+                                        .plus-text
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                            font-size: 15px
+                                            font-weight: 600
+                                        .plus-red-arrow-img
+                                            float: left
+                                        .plus-text-2
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                            font-size: 15px
+                                            font-weight: 600
+                                    .minus-box
+                                        .minus-text
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                            font-size: 15px
+                                            font-weight: 600
+                                        .minus-red-arrow-img
+                                            float: left
+                                        .minus-text-2
+                                            width: 35px
+                                            float: left
+                                            text-align: center
+                                            font-size: 15px
+                                            font-weight: 600
+                                .section-right-part
+                                    float: left
+                                    width: 100px
+                                    display: grid
+                                    margin-right: 15px
+                                    .span-blue-text
+                                        color: #00aeef
+                                        font-weight: 900
+                                        float: left
+                                        width: 100%
+                                        font-size: 16px
+                                    .blue-box
+                                        border: 5px solid #00aeef
+                                        height: 210px
+                                        width: 100px
+                                        float: left
+                                        border-radius: 10px
+                                        margin: auto
+                                        display: grid
+                                        background: $color-default
+                                        text-align: center
+                                        .blue-box-text-1
+                                            word-break: break-all
+                                            width: 50px
+                                            margin: auto
+                                            font-size: 17px
+                                        .blue-box-text-2
+                                            word-break: break-all
+                                            width: 50px
+                                            margin: auto
+                                            font-size: 17px
+                                        .blue-littl-box
+                                            background: #00aeef78
+                                            border-top: 4px solid #00aeef
+                                            display: flex
+                                            width: 100%
+                                            float: left
+                                            div
+                                                margin: auto
+                                        .blue-mini-box-1
+                                            background: #00aeef
+                                            height: 8px
+                                            position: absolute
+                                            width: 8px
+                                            margin-top: 155px
+                                            margin-left: -10px
+                                        .blue-mini-box-2
+                                            background: #00aeef
+                                            height: 8px
+                                            position: absolute
+                                            width: 8px
+                                            margin-top: 180px
+                                            margin-left: -10px
+                                        .plus
+                                            position: absolute
+                                            margin-top: 148px
+                                            margin-left: -30px
+                                            font-weight: 600
+                                        .minus
+                                            position: absolute
+                                            margin-top: 171px
+                                            margin-left: -30px
+                                            font-weight: 600
+                                            width: 7px
+                                            text-align: center
+                                .section-right-touch
+                                    float: left
+                                    width: 230px
+                                    .right-touch-text-1
+                                        float: left
+                                        width: 100%
+                                        text-align: left
+                                        margin-top: 60px
+                                        margin-bottom: 30px
+                                    .right-touch-text-2
+                                        float: left
+                                        width: 100%
+                                        text-align: left
+                                .dashed-border-main
+                                    border: 0.5px solid black
+                                    border-style: dashed
+                                    height: 0px
+                                    color: transparent
+                                    margin-top: -109px
+                                    z-index: 9
+                                    float: left
+                                    width: 100%
+                                .gray-box-bottom
+                                    background: #c5c5c5
+                                    float: left
+                                    width: 260px
+                                    border-radius: 3px
+                                    padding: 8px 10px
+                                    font-size: 12px
+                                    font-weight: 600
+                                    margin-left: -50px
+                                    margin-top: -46px
+                    .bottom-text-section
+                        float: right
+                        margin: 0px 0px 10px 0px
+                        padding: 10px
+                        text-align: left
+                        width: 93%
+                        .bottom-text-1
+                            padding-bottom: 5px
+                            float: left
+                            width: 100%
+                            font-weight: 900
+                        .bottom-text-2
+                            font-weight: 100
+                            padding-bottom: 5px
+                        .bottom-text-3
+                            font-weight: 800
+                            padding-bottom: 5px
+                        .bottom-text-4
+                            font-weight: 800
+                            padding-bottom: 10px
+                            margin-top: 16px
+                        .part-of-panel-1
+                            border: 3px solid #ed1c24
+                            float: left
+                            width: 100%
+                            margin-bottom: 5px
+                            .part-red-box
+                                padding: 0px 10px
+                                background: #ed1c24
+                                float: left
+                                color: white
+                                text-align: center
+                                display: flex
+                                margin-right: 10px
+                                div
+                                    margin: auto
+                            .part-text-red
+                                float: left
+                                width: 93%
+                        .part-of-panel
+                            border: 3px solid #0068b5
+                            float: left
+                            width: 100%
+                            .part-blue-box
+                                padding: 11px 10px
+                                background: #0068b5
+                                float: left
+                                color: white
+                                text-align: center
+                                display: flex
+                                margin-right: 10px
+                                div
+                                    margin: auto
+                            .part-text
+                                float: left
+                                width: 93%
+                        .paregraph-box-101
+                            width: 100%
+                            float: left
+                            margin-top: 10px
+                            margin-bttom: 10px
+                            .para-main-1
+                                font-weight: 800
+                                margin-bottom: 5px
+                        .paregraph-box-202
+                            width: 100%
+                            float: left
+                            margin-top: 10px
+                            margin-bttom: 10px
+                            .para-main-2
+                                font-weight: 800
+                                margin-bottom: 5px
+                .step-1-bottom-btn
+                    width: 60%
+                    margin: auto
+                    .step-1-red-img
+                        width: 50%
+                        float: left
+                        text-align: center
+                        position: relative
+                        img
+                            width: 100px
+                            position: relative
+                        div
+                            position: absolute
+                            z-index: 9
+                            top: 33px
+                            right: 145px
+                            font-size: 16px
+                            color: white
+                            font-weight: 700
+                    .step-1-blue-img
+                        width: 50%
+                        float: left
+                        text-align: center
+                        position: relative
+                        img
+                            width: 100px
+                            position: relative
+                        div
+                            position: absolute
+                            z-index: 9
+                            top: 33px
+                            right: 145px
+                            font-size: 16px
+                            color: white
+                            font-weight: 700
+
+                    // .colleps-table
+                    //     transition: all .2s ease
+                    //     background: #f5f5f5
+                    //     margin-bottom: 0
+                    //     tr
+                    //         border-bottom: 0 !important
+                    //         th
+                    //             border-bottom: 0
+                    //             border-top: 0
+
+        .collesps-main-row.close
+            display: none
+
+        .colleps-icon
+            position: absolute
+            right: 10px
+            margin-top: 5px
+            cursor: pointer
+    .blog-list-table
+        tr
+            td
+                padding: 1.25rem .75rem
